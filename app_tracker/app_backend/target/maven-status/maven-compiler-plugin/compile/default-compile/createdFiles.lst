@@ -1,0 +1,12 @@
+com\example\app_tracker\app_backend\dto\AppDto.class
+com\example\app_tracker\app_backend\controller\AppController.class
+com\example\app_tracker\app_backend\exceptions\AppNotFoundException.class
+com\example\app_tracker\app_backend\mapper\ApplicationMapper.class
+com\example\app_tracker\app_backend\entity\App.class
+com\example\app_tracker\app_backend\exceptions\RepositoryEmptyException.class
+com\example\app_tracker\app_backend\service\implementation\AppServiceImplementation.class
+com\example\app_tracker\app_backend\exceptions\ErrorDetails.class
+com\example\app_tracker\app_backend\AppBackendApplication.class
+com\example\app_tracker\app_backend\service\AppService.class
+com\example\app_tracker\app_backend\repository\AppRepository.class
+com\example\app_tracker\app_backend\exceptions\AppExceptionHandler.class

@@ -1,0 +1,12 @@
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\entity\App.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\exceptions\ErrorDetails.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\service\AppService.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\controller\AppController.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\exceptions\AppNotFoundException.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\AppBackendApplication.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\exceptions\AppExceptionHandler.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\repository\AppRepository.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\dto\AppDto.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\mapper\ApplicationMapper.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\exceptions\RepositoryEmptyException.java
+C:\Users\tubby\Documents\prog\javastart\misc\tracking\old_versions\app_tracker_1\app_backend\src\main\java\com\example\app_tracker\app_backend\service\implementation\AppServiceImplementation.java

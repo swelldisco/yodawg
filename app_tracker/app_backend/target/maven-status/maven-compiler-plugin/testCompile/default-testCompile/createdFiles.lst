@@ -1,0 +1,5 @@
+com\example\app_tracker\app_backend\AppIntegrationTest.class
+com\example\app_tracker\app_backend\AppControllerUnitTest.class
+com\example\app_tracker\app_backend\AppBackendApplicationTests.class
+com\example\app_tracker\app_backend\AppRepositoryUnitTest.class
+com\example\app_tracker\app_backend\AppServiceUnitTest.class
