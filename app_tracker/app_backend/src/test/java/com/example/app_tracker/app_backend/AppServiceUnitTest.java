@@ -22,7 +22,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+// import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import com.example.app_tracker.app_backend.dto.AppDto;
 import com.example.app_tracker.app_backend.entity.App;
@@ -32,7 +32,7 @@ import com.example.app_tracker.app_backend.mapper.ApplicationMapper;
 import com.example.app_tracker.app_backend.repository.AppRepository;
 import com.example.app_tracker.app_backend.service.implementation.AppServiceImplementation;
 
-@DataJpaTest
+// @DataJpaTest
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
 public class AppServiceUnitTest {
