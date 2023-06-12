@@ -9,4 +9,6 @@ When you realize you should be keeping a spreadsheet to avoid embarrassing dupli
 - Added unit testing for the repository and service layers.
 - Added unit testing for the controller layer.
 - Added integration testing.
-- - Discovered testing is really fickle and tempermental
+  - Discovered testing is really fickle and tempermental
+
+Spring Boot, Maven, MySQL.  Tests with JUnit and Mockito.
