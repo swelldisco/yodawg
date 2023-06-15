@@ -30,16 +30,16 @@ public class App {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int appId;
 
-    @Column(name = "company", nullable = false)
+    @Column(name = "company", nullable = false, length = 50)
     private String companyName;
 
-    @Column(name = "position", nullable = false)
+    @Column(name = "position", nullable = false, length = 250)
     private String positionName;
 
-    @Column(name = "postion_id")
+    @Column(name = "postion_id", length = 20)
     private String positionId;
 
-    @Column(name = "location")
+    @Column(name = "location", length = 35)
     private String location;
 
     @Column(name = "application_date")
