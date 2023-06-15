@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,18 +28,22 @@ public class AppDto {
     @Schema(description = "Company name.")
     @NotBlank(message = "Company name cannot be left blank.")
     @NotEmpty(message = "Company name cannot be left empty.")
+    @Size(max = 50, message = "Company name must be 50 characters or less.")
     private String companyName;
 
     @NonNull
     @Schema(description = "Postion name or description.")
     @NotBlank(message = "Position cannot be left blank.")
     @NotEmpty(message = "Position name cannot be left empty.")
+    @Size(max = 250, message = "Position name must be 250 characters or less.")
     private String positionName;
 
     @Schema(description = "Position ID if present, to help differentiate between two openings at the same company with the same name.")
+    @Size(max = 20, message = "Position ID must be 20 characters or less.")
     private String positionId;
 
     @Schema(description = "Physical location for in person and hybrid positions.")
+    @Size(max = 35, message = "Location must be 35 characters or less.")
     private String location;
 
     @Schema(description = "Date and time the application was submitted.")
